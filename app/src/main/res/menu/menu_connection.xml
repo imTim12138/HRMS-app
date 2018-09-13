@@ -6,11 +6,11 @@
     <item
         android:id="@+id/menu_android_connect"
         android:orderInCategory="100"
-        android:title="Connect with android device"  />
+        android:title="与其他手机终端连接" />
 
     <item
         android:id="@+id/menu_device_connect"
         android:orderInCategory="100"
-        android:title="Connect with any device" />
+        android:title="与检测报警装置连接" />
 
 </menu>

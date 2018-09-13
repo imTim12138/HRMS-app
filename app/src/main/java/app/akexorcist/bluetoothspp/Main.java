@@ -21,9 +21,6 @@ public class Main extends Activity implements OnClickListener {
         Button btnListener = findViewById(R.id.btnListener);
         btnListener.setOnClickListener(this);
 
-        Button btnAutoConnect = findViewById(R.id.btnAutoConnect);
-        btnAutoConnect.setOnClickListener(this);
-
         Button btnDeviceList = findViewById(R.id.btnDeviceList);
         btnDeviceList.setOnClickListener(this);
 
@@ -43,10 +40,7 @@ public class Main extends Activity implements OnClickListener {
                 intent = new Intent(getApplicationContext(), ListenerActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.btnAutoConnect:
-                intent = new Intent(getApplicationContext(), AutoConnectActivity.class);
-                startActivity(intent);
-                break;
+
             case R.id.btnDeviceList:
                 intent = new Intent(getApplicationContext(), DeviceListActivity.class);
                 startActivity(intent);

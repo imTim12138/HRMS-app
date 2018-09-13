@@ -69,17 +69,17 @@ public class TerminalActivity extends Activity {
 
         bt.setBluetoothConnectionListener(new BluetoothConnectionListener() {
             public void onDeviceDisconnected() {
-                textStatus.setText("Status : Not connect");
+                textStatus.setText("状态 : 未连接");
                 menu.clear();
                 getMenuInflater().inflate(R.menu.menu_connection, menu);
             }
 
             public void onDeviceConnectionFailed() {
-                textStatus.setText("Status : Connection failed");
+                textStatus.setText("状态 : 连接失败");
             }
 
             public void onDeviceConnected(String name, String address) {
-                textStatus.setText("Status : Connected to " + name);
+                textStatus.setText("状态 : 已连接到 " + name);
                 menu.clear();
                 getMenuInflater().inflate(R.menu.menu_disconnection, menu);
             }

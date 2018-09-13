@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Status : Not connect"
+        android:text="@string/title_activity_terminal_status0"
         android:textSize="12sp" />
 
     <LinearLayout
@@ -51,7 +51,7 @@
             android:id="@+id/btnSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Send" />
+            android:text="发送" />
     </LinearLayout>
 
     <ScrollView

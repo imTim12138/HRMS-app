@@ -16,39 +16,46 @@
         android:layout_centerHorizontal="true" >
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="BluetoothSPP Simple"
             android:id="@+id/btnSimple"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_vertical|left" />
-
-        <Button
+            style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BluetoothSPP Listener"
-            android:id="@+id/btnListener"
-            android:gravity="center_vertical|left" />
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="?android:attr/colorAccent"
+            android:elevation="0dp"
+            android:gravity="center_vertical|left"
+            android:text="职工登录"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1" />
 
         <Button
+            android:id="@+id/btnListener"
+            style="@style/Widget.AppCompat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BluetoothSPP AutoConnect"
-            android:id="@+id/btnAutoConnect"
-            android:gravity="center_vertical|left" />
+            android:backgroundTint="?attr/colorPrimary"
+            android:gravity="center_vertical|left"
+            android:text="管理员登录"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="BluetoothSPP DeviceList"
             android:id="@+id/btnDeviceList"
-            android:gravity="center_vertical|left" />
-
-        <Button
+            style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bluetooth Terminal"
+            android:backgroundTint="?android:attr/colorPressedHighlight"
+            android:gravity="center_vertical|left"
+            android:text="申请"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1" />
+
+        <Button
             android:id="@+id/btnTerminal"
-            android:gravity="center_vertical|left" />
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?attr/colorAccent"
+            android:gravity="center_vertical|left"
+            android:text="审核"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1"
+            android:textColorLink="@color/colorAccent" />
     </LinearLayout>
 </RelativeLayout>
