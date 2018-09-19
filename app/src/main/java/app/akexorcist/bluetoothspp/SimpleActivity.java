@@ -44,7 +44,7 @@ public class SimpleActivity extends Activity {
 		Button btnSend = (Button)findViewById(R.id.btnSend);
 		btnSend.setOnClickListener(new OnClickListener(){
         	public void onClick(View v){
-        		
+
         	}
         });
 	}
